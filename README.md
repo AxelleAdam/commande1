@@ -9,6 +9,7 @@
 
 Il est à noter que dans les templates html, les notes font offices aussi de variables selon les règles de l'hébergeur ForumActif et ne peuvent être retirées, même si vides. 
 Il est à noter que ces codes sont faits pour PHPBB2.
+Il est à noter que les templates, le css et le JavaScript sont sur des feuilles séparées mais connectées entre elles sur la plateforme ForumActif.
 
 Le code est adapté à Brave et Google Chrome.
 
