@@ -8,6 +8,7 @@
 6. Quelque bribes de css pour personnaliser le forum (scrollbar)
 
 Il est à noter que dans les templates html, les notes font offices aussi de variables selon les règles de l'hébergeur ForumActif et ne peuvent être retirées, même si vides. 
+Il est à noter que ces codes sont faits pour PHPBB2.
 
 Le code est adapté à Brave et Google Chrome.
 
