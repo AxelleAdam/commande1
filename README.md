@@ -9,9 +9,10 @@
 7. Quelque bribes de JS pour personnaliser le forum et ses templates.
 
 Il est à noter que dans les templates html, les notes font offices aussi de variables selon les règles de l'hébergeur ForumActif et ne peuvent être retirées, même si vides. 
-Il est à noter que ces codes sont faits pour PHPBB2.
 Il est à noter que les templates, le css et le JavaScript sont sur des feuilles séparées mais connectées entre elles sur la plateforme ForumActif.
 
 Le code est adapté à Brave et Google Chrome.
 
 Une version responsive arrivera prochainement.
+
+Ces codes ont été demandés pour la création d'un forum rpg avec l'hébergeur forumactif et sont donc adaptés principalement à forumactif et la version choisie par l'utilisateur, version fournie par forumactif aussi, soit PHPBB2. Certains de ces codes peuvent être transposés ailleurs mais devront être nécessairement adaptés. D'autres ne peuvent être transportés ailleurs car ils sont rattachés à ForumActif et aux variables de base de la plateforme, les codes ont été écrits pour s'adapter à cette plateforme.
