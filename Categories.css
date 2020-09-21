@@ -1,0 +1,156 @@
+.blocDernierPost{
+  float:right;
+  width:120px;
+  height:140px;  
+}
+
+.dernierPost{
+    background-color: rgb(202, 198, 198);
+    font-family: "open sans";
+    font-size: 11px;
+    padding: 10px;
+    position: absolute;
+    right: 2%;
+    text-align: center;
+    top: 16%;
+    height: 100px;
+}
+
+.dernierPost span{
+    left: 1%;
+    position: relative;
+}
+
+.imgOldNewLock{
+    height: 33px;
+    position: relative;
+    width: 110px;
+}
+.avatarCate{
+    background: rgb(202, 198, 198);
+    padding: 5px;
+    position: absolute;
+    right: 19.2%;
+    top: 16%;
+    width: 70px;
+}
+
+.avatarCate img{
+  width:70px;
+}
+.blocForum{
+  position:relative;
+  width:850px;    
+  height:auto;
+  background:transparent;
+  }
+
+.titreCate{
+    width: 100%;
+    height: 60px;
+    background: #b7b7b7;
+    border: transparent;
+    box-shadow: #a2a0a0 0 -4px 0 inset;
+    margin: auto;
+    letter-spacing: 3px;
+}
+.titreCate h2 /*titre de la caté*/
+{        
+    font-family: "Kufam", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: rgba(243, 243, 243, 0.78) 2px 0px 0px;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    color: rgb(148, 41, 39);
+    padding-top: 16px;
+}
+
+.blocCate{
+    background: rgb(191, 189, 189);
+    height: auto;
+    position: relative;
+    width: 850px;
+    padding: 8px 0 8px 0;
+}
+.titreForum 
+{
+    height: 20px;
+    left: 21%;
+    top: 2%;
+    margin: auto;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    transform: rotate(-2deg);
+}
+
+.titreForum a{
+    font-family: "Kufam", sans-serif;
+    font-size: 15px;
+    color: #942927 !important;
+    text-shadow: #f3f3f3c7 2px 0px 0;
+    text-transform: uppercase;
+}
+.descriptionForum{
+    background-color: #cac6c6;
+    font-family: "open sans", sans-serif;
+    font-size: 13px;
+    height: 110px;
+    left: 21%;
+    overflow: auto;
+    padding: 5px;
+    position: absolute;
+    text-align: justify;
+    top: 16%;
+    width: 48%;
+}
+
+.descriptionForum strong{
+    box-shadow: rgb(191, 189, 189) 0px -5px 0px inset;
+    font-family: "indie flower", cursive;
+    text-transform: uppercase;
+    color: rgb(64, 92, 103);
+    text-shadow: #f3f3f3c7 2px 0px 0;
+    font-size: 11px;
+}
+.sujetsMessages{
+    font-family: "poppins", sans-serif;
+    font-size: 10px;
+    height: 10px;
+    position: absolute;
+    right: -6.5%;
+    text-align: center;
+    top: 54%;
+    width: 16%;
+    transform: rotate(-90deg);
+    z-index: 1;
+}
+.sousForums {
+    background-color: #cac6c6;
+    font-size: 0;
+    height: 90x;
+    left: 1%;
+    position: absolute;
+    text-align: center;
+    top: 16%;
+    width: 130px;
+    padding: 15px;height: 90px;
+    overflow: auto;
+}
+
+.sousForums a{
+    box-shadow: 0 -5px 0 #bfbdbd inset;
+    display: block;
+    font-family: "kufam", sans-serif;
+    font-size: 9px;
+    padding: 3px 0 0;
+    text-align: center;
+    text-shadow: #f3f3f3c7 2px 0 0;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+
+.sousForums a:hover{
+    letter-spacing: 1.5px;
+}
