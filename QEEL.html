@@ -1,0 +1,240 @@
+{JAVASCRIPT}
+<!-- BEGIN message_admin_index -->
+<table class="forumline" width="100%" border="0" cellspacing="1" cellpadding="0">
+ <!-- BEGIN message_admin_titre -->
+ <tr>
+ <td class="catHead" height="28"><span class="cattitle">{message_admin_index.message_admin_titre.MES_TITRE}</span></td>
+ </tr>
+ <!-- END message_admin_titre -->
+ <!-- BEGIN message_admin_txt -->
+ <tr>
+ <td class="row1" rowspan="3" align="center" valign="middle">
+ <div class="gensmall">{message_admin_index.message_admin_txt.MES_TXT}</div>
+ </td>
+ </tr>
+ <!-- END message_admin_txt -->
+</table>
+<!-- END message_admin_index -->
+
+<!-- BEGIN switch_user_login_form_header -->
+<form action="{S_LOGIN_ACTION}" method="post" name="form_login">
+ <!-- BEGIN switch_fb_connect_no -->
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" class="user_login_form forumline">
+ <tr>
+ <td class="row1" align="center">
+ <table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+ <td><span class="genmed">{L_USERNAME}:</span> </td>
+ <td><input class="post" type="text" size="10" name="username"/> </td>
+ <td>
+ <input class="radio" type="checkbox" name="autologin" {AUTOLOGIN_CHECKED} />
+ <span class="gensmall">{L_AUTO_LOGIN}</span> 
+ </td>
+ </tr>
+
+ <tr>
+ <td><span class="genmed">{L_PASSWORD}:</span> </td>
+ <td><input class="post" type="password" size="10" name="password"/> </td>
+ <td>{S_HIDDEN_FIELDS}<input class="mainoption" type="submit" name="login" value="{L_LOGIN}" /></td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+ </table>
+ <!-- END switch_fb_connect_no -->
+
+ <!-- BEGIN switch_fb_connect -->
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" class="user_login_form forumline">
+ <tr>
+ <td valign="top" width="100%" class="row1" align="center">
+ <table width="100%">
+ <tr>
+ <td width="55%" valign="middle" align="right">
+ <table class="right">
+ <tr>
+ <td><span class="genmed">{L_USERNAME}:</span> </td>
+ <td><input class="post" type="text" size="10" name="username"/> </td>
+ <td>
+ <input class="radio" type="checkbox" name="autologin" {AUTOLOGIN_CHECKED} />
+ <span class="gensmall">{L_AUTO_LOGIN}</span> 
+ </td>
+ </tr>
+
+ <tr>
+ <td><span class="genmed">{L_PASSWORD}:</span> </td>
+ <td><input class="post" type="password" size="10" name="password"/> </td>
+ <td>{S_HIDDEN_FIELDS}<input class="mainoption" type="submit" name="login" value="{L_LOGIN}" /></td>
+ </tr>
+ </table>
+ </td>
+ <td width="10%" align="center" valign="middle">
+ <span class="genmed fb_or">{switch_user_login_form_header.switch_fb_connect.L_OR}</span>
+ </td>
+ <td width="35%" class="align_gauche"><fb:login-button size="large" onlogin="window.location='/facebook_connect.forum'" v="2" scope="{switch_user_login_form_header.switch_fb_connect.L_FB_PERMISSIONS}">{switch_user_login_form_header.switch_fb_connect.L_FB_LOGIN_BUTTON}</fb:login-button></td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+ </table>
+ <!-- END switch_fb_connect -->
+</form>
+<!-- END switch_user_login_form_header -->
+
+{CHATBOX_TOP}
+{BOARD_INDEX}
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tr>
+ <td width="50%" valign="top">
+ <!-- BEGIN switch_user_logged_in -->
+ <span class="gensmall"><a href="{U_MARK_READ}" class="gensmall">{L_MARK_FORUMS_READ}</a>
+ <!-- END switch_user_logged_in -->
+ <!-- BEGIN switch_delete_cookies -->
+ <br /><a href="{switch_delete_cookies.U_DELETE_COOKIES}" class="gensmall">{switch_delete_cookies.L_DELETE_COOKIES}</a>
+ <!-- END switch_delete_cookies -->
+ </span>
+ </td>
+ <td width="50%" align="right">
+ <span class="gensmall">
+ <a href="{U_TODAY_ACTIVE}" class="gensmall">{L_TODAY_ACTIVE}</a><br />
+ <a href="{U_TODAY_POSTERS}" class="gensmall">{L_TODAY_POSTERS}</a><br />
+ <a href="{U_OVERALL_POSTERS}" class="gensmall">{L_OVERALL_POSTERS}</a>
+ <!-- BEGIN switch_on_index -->
+ <!-- BEGIN switch_delete_cookies -->
+ <br /><a href="{switch_on_index.switch_delete_cookies.U_DELETE_COOKIES}" class="gensmall">{switch_on_index.switch_delete_cookies.L_DELETE_COOKIES}</a>
+ <!-- END switch_delete_cookies -->
+ <!-- END switch_on_index -->
+ </span>
+ </td>
+ </tr>
+</table>
+
+<!-- BEGIN switch_user_login_form_footer -->
+<form action="{S_LOGIN_ACTION}" method="post" name="form_login">
+ <!-- BEGIN switch_fb_connect_no -->
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" class="user_login_form forumline">
+ <tr>
+ <td class="row1" align="center">
+ <table border="0" cellspacing="0" cellpadding="0">
+ <tr>
+ <td><span class="genmed">{L_USERNAME}:</span> </td>
+ <td><input class="post" type="text" size="10" name="username"/> </td>
+ <td>
+ <input class="radio" type="checkbox" name="autologin" {AUTOLOGIN_CHECKED} />
+ <span class="gensmall">{L_AUTO_LOGIN}</span> 
+ </td>
+ </tr>
+
+ <tr>
+ <td><span class="genmed">{L_PASSWORD}:</span> </td>
+ <td><input class="post" type="password" size="10" name="password"/> </td>
+ <td>{S_HIDDEN_FIELDS}<input class="mainoption" type="submit" name="login" value="{L_LOGIN}" /></td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+ </table>
+ <!-- END switch_fb_connect_no -->
+
+ <!-- BEGIN switch_fb_connect -->
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" class="user_login_form forumline">
+ <tr>
+ <td valign="top" width="100%" class="row1" align="center">
+ <table width="100%">
+ <tr>
+ <td width="55%" valign="middle">
+ <table class="right">
+ <tr>
+ <td><span class="genmed">{L_USERNAME}:</span> </td>
+ <td><input class="post" type="text" size="10" name="username"/> </td>
+ <td>
+ <input class="radio" type="checkbox" name="autologin" {AUTOLOGIN_CHECKED} />
+ <span class="gensmall">{L_AUTO_LOGIN}</span> 
+ </td>
+ </tr>
+
+ <tr>
+ <td><span class="genmed">{L_PASSWORD}:</span> </td>
+ <td><input class="post" type="password" size="10" name="password"/> </td>
+ <td>{S_HIDDEN_FIELDS}<input class="mainoption" type="submit" name="login" value="{L_LOGIN}" /></td>
+ </tr>
+ </table>
+ </td>
+ <td width="10%" align="center" valign="middle">
+ <span class="genmed fb_or">{switch_user_login_form_footer.switch_fb_connect.L_OR}</span>
+ </td>
+ <td width="35%" class="align_gauche"><fb:login-button size="large" onlogin="window.location='/facebook_connect.forum'" v="2" scope="{switch_user_login_form_footer.switch_fb_connect.L_FB_PERMISSIONS}">{switch_user_login_form_footer.switch_fb_connect.L_FB_LOGIN_BUTTON}</fb:login-button></td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+ </table>
+ <!-- END switch_fb_connect -->
+</form>
+<!-- END switch_user_login_form_footer -->
+
+<!-- BEGIN disable_viewonline -->
+<script type="text/javascript">
+    //<!--
+ function change_onglet(name)
+                {
+ document.getElementById('onglet_'+anc_onglet).className = 'bls_onglet_0 bls_onglet';
+                        document.getElementById('onglet_'+name).className = 'onglet_1 bls_onglet';
+                        document.getElementById('bls_contenu_'+anc_onglet).style.display = 'none';
+                        document.getElementById('bls_contenu_'+name).style.display = 'block';
+                        anc_onglet = name;
+                }
+        //-->
+</script>
+<div class="fond_qeel">
+  <div class="titreQEEL"><h2>Qui est en ligne ?</h2></div> 
+        <div class="statmembre">
+                  <div><span id="listuser">{TOTAL_POSTS}. {TOTAL_USERS}. <span class="gensmall" style="font-size:10px;"><span id="delf">{TOTAL_USERS_ONLINE}</span><script type="text/javascript">document.getElementById('delf').innerHTML=document.getElementById('delf').innerHTML.replace(/utilisateur en ligne/,"inscrit");</script><script type="text/javascript">document.getElementById('delf').innerHTML=document.getElementById('delf').innerHTML.replace(/utilisateurs en ligne/,"connecté");</script>
+
+<script type="text/javascript">document.getElementById('delf').innerHTML=document.getElementById('delf').innerHTML.replace(/Enregistré/,"Inscrit");</script><script type="text/javascript">document.getElementById('delf').innerHTML=document.getElementById('delf').innerHTML.replace(/Enregistrés/,"Inscrits");</script>
+
+<script type="text/javascript">document.getElementById('delf').innerHTML=document.getElementById('delf').innerHTML.replace(/Invisible et/,"Caché,");</script><script type="text/javascript">document.getElementById('delf').innerHTML=document.getElementById('delf').innerHTML.replace(/Invisibles et /,"Cachés");</script>
+
+<script type="text/javascript">document.getElementById('delf').innerHTML=document.getElementById('delf').innerHTML.replace(/Invité/,"Futur membre");</script><script type="text/javascript">document.getElementById('delf').innerHTML=document.getElementById('delf').innerHTML.replace(/Invités/,"Futurs membres");</script></span>
+                    <br/><br/>Ils sont là ;    {LOGGED_IN_USER_LIST}</span>
+ <script type="text/javascript">document.getElementById('listuser').innerHTML=document.getElementById('listuser').innerHTML.replace(/Utilisateurs enregistrés : /,"").replace(/Aucun/ig,"");</script></div>
+ </div>
+  <div id="avatar_dernier_membre"></div>
+  <div class="bienvenueqeel">Bienvenue à toi, <span id="dernier_membre">{NEWEST_USER}</span>, puisse le sort t'être favorable.
+    <script type="text/javascript">document.getElementById('dernier_membre').innerHTML=document.getElementById('dernier_membre').innerHTML.replace(/L'utilisateur enregistré le plus récent est /,"");</script>
+  </div>
+          <div class="connectQEEL"><span id="list_connect"><table><tr>Ils étaient là ; {L_CONNECTED_MEMBERS}
+            </tr></table></span>
+        <script type="text/javascript">document.getElementById('list_connect').innerHTML=document.getElementById('list_connect').innerHTML.replace(/Membres connectés au cours des 99 dernières heures : /,"");</script>
+          </div>
+    <div class="onglet_placement zone-groupes"> 
+              <div class="bls_onglet_0 bls_onglet tq1"><a href="LIEN GROUPE 1" target="_blank" class="groupe1">NOM DE GROUPE</a></div>
+              <div class="bls_onglet_0 bls_onglet tq2"><a href="LIEN GROUPE 2" target="_blank" class="groupe2">NOM DE GROUPE</a></div>
+              <div class="bls_onglet_0 bls_onglet tq1"><a href="LIEN GROUPE 3" target="_blank" class="groupe3">NOM DE GROUPE</a></div>
+              <div class="bls_onglet_0 bls_onglet tq2"><a href="LIEN GROUPE 4" target="_blank" class="groupe4">NOM DE GROUPE</a></div>
+              <div class="bls_onglet_0 bls_onglet tq1"><a href="LIEN GROUPE 5" target="_blank" class="groupe6">NOM DE GROUPE</a></div>
+              <div class="bls_onglet_0 bls_onglet tq2"><a href="LIEN GROUPE 6" target="_blank" class="groupe5">NOM DE GROUPE</a></div>
+      <div id="legend">{GROUP_LEGEND}</div></div>
+
+</div>
+
+
+<!-- END disable_viewonline -->
+{CHATBOX_BOTTOM}
+<br clear="all" />
+
+{AUTO_DST}
+
+<!-- BEGIN switch_fb_index_login -->
+<div id="fb-root"></div>
+<script type="text/javascript">
+//<![CDATA[
+FB.init({
+ appId: '{switch_fb_index_login.FACEBOOK_APP_ID}',
+ status: true,
+ cookie: true,
+ xfbml: true,
+ oauth: true
+});
+//]]>
+</script>
+<!-- END switch_fb_index_login -->
