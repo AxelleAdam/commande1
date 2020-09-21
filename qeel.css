@@ -1,0 +1,140 @@
+#legend {
+    display: none;
+}
+.fond_qeel {
+    width: 850px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    background: rgb(191, 189, 189);
+}
+
+.titreQEEL{
+    background: #b7b7b7;
+    border: transparent;
+    box-shadow: #a2a0a0 0 -4px 0 inset;
+    font-size: 23px;
+    width: 850px;
+    height: 55px;
+    text-align: center;
+}
+
+.titreQEEL h2{
+    color: #942927;
+    font-family: "kufam", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: #f3f3f3c7 2px 0 0;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    padding-top: 12px;
+}
+.statmembre{
+    width: 330px;
+    height: 170px;
+    font-size: 11px;
+    overflow: auto;
+    position: absolute;
+    top: 88px;
+    left: 20px;
+    text-align: justify;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(202, 198, 198);
+    color: #2b2b2b;
+    font-size: 10px;
+    font-style: oblique;
+}
+.statmembre a, .connectQEEL a{
+    font-family: 'poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-style: normal !important;
+    letter-spacing: 2px; 
+}
+.bienvenueqeel{
+    font-family: "poppins", sans-serif;
+    font-size: 10px;
+    font-style: oblique;
+    left: 27em;
+    margin: auto;
+    position: absolute;
+    text-align: justify;
+    text-transform: uppercase;
+    top: 6.5em;
+}
+
+#dernier_membre{
+    font-family: "kufam", sans-serif;
+    font-size: 10px;
+    text-shadow: rgba(243, 243, 243, 0.78) 2px 0px 0px;
+    letter-spacing:2px;
+}
+
+.connectQEEL{
+    width: 330px;
+    height: 170px;
+    overflow: auto;
+    text-align: justify;
+    position: absolute;
+    right: 20px;
+    top: 88px;
+    padding: 5px;
+    text-transform: uppercase !important;
+    background-color: rgb(202, 198, 198);
+    color: #2b2b2b;
+    font-size: 10px;
+    font-style: oblique;
+}
+.connectQEEL .gensmall{
+    font-size: 12px;
+}
+
+
+#avatar_dernier_membre{
+    margin: auto;
+    position: relative;
+    top: 32px;
+    width: 110px;
+    background: #cac6c6;
+    padding: 5px;
+}
+
+#avatar_dernier_membre img{
+  width: 110px;
+}
+
+.bls_onglet{
+    cursor: pointer;
+    margin-bottom: -2px;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+}
+
+.onglet_placement{
+    position: absolute;
+    bottom: -18px;
+    left: 18px;
+    width: 850px;
+    height: 40px;
+    overflow: auto;
+    text-align: center;
+    padding: 5px; 
+    color: #1b1b1b;
+}
+
+.tq1 a{
+    font-family: "kufam", sans-serif;
+    text-shadow: rgba(243, 243, 243, 0.78) 2px 0px 0px;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+.tq2 a{
+    font-family: "kufam", sans-serif;
+    text-shadow: rgba(243, 243, 243, 0.78) 2px 0px 0px;
+    font-size:14px;
+    text-transform:uppercase;
+}
