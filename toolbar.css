@@ -1,0 +1,101 @@
+div#fa_search {display:none!important;}
+span#fa_share {display:none!important;}
+a#fa_mail {display: none !important;}
+a#fa_rss {display: none !important;}
+#fa_icon {
+opacity:0 !important;
+}
+a#fa_service {
+opacity:0 !important;
+}
+div#fa_toolbar {
+    background-color: transparent;  /* Couleur de fond */
+    margin: auto;  /* Centre la toolbar */
+    position: relative;  /* Permet de décaler la toolbar */
+    top: 10px;  /* Décale la toolbar du haut */
+}
+
+ #fa_welcome {
+    background: rgb(186, 184, 184) !important;
+    box-shadow: rgb(162, 160, 160) 0px -4px 0px inset !important;
+    font-family: kufam !important;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+    border: transparent !important;
+    padding: 5px !important;
+    transform: rotate(-2deg) !important;
+    text-shadow: rgb(232, 231, 224) 1px 1px 0px !important;
+    color: rgb(148, 41, 39) !important;
+    text-transform: uppercase !important;
+    padding: 1px 15px !important;*/
+    }
+
+  a#fa_notifications    {   
+    background: rgb(186, 184, 184) !important;
+    box-shadow: rgb(162, 160, 160) 0px -4px 0px inset !important;
+    color: #405c67 !important;
+    font-family: indie flower !important;
+    font-size: 14px !important;
+    letter-spacing: 1px !important;
+    border: transparent !important;
+    padding: 5px !important;
+    transform: rotate(-2deg) !important;
+    text-shadow: rgb(232, 231, 224) 1px 1px 0px !important;
+    text-transform: uppercase !important;
+    padding: 1px 15px !important;*/
+}
+
+
+a#fa_hide {display: none!important;}
+/* MENU TOOLBAR */
+    ul#fa_menulist {
+    z-index:3 !important;
+    background: #cac6c6 !important;
+    border: 3px solid #cec8c8 !important;
+    color: #353535 !important;
+ }
+
+    /* LIENS MENU TOOLBAR */
+    #fa_menulist a:link, #fa_menulist a:visited {
+    color:#696161 !important; 
+    text-transform:uppercase !important;
+    font-family:'kufam', sans-serif !important;
+    font-size:10px !important;
+    text-align:center !important;
+    }
+#fa_usermenu{
+  color:#353535 !important;
+  font-family:'open sans', sans-serif !important;
+  text-transform:uppercase !important;
+  font-size:11px !important;
+  text-align:center;
+}
+#notif_list{
+  position:absolute;
+  top:70px;
+  right:2px;
+    color: #292828 !important;
+    font-family: kufam;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: #bab8b8 !important;
+    border: transparent;
+    box-shadow: #a2a0a0 0 -4px 0 inset !important;
+}
+
+#fa_toolbar #fa_right #notif_list li .contentText{
+    color:#292828 !important;
+}
+#fa_toolbar #fa_right #notif_list li .contentText a{
+  color:#696161 !important;  
+  text-decoration:none !important;   
+}
+#fa_toolbar #fa_right #notif_list li.unread{
+    background: #cac6c6 !important;
+    border: 3px solid #cec8c8 !important;
+    color: #292828 !important;
+}
+#fa_toolbar #fa_right #notif_list li.unread a{
+  color:#942927 !important; text-shadow: rgba(243,243,243,0.78) 2px 0 0!important;
+  text-decoration:none !important;
+}
