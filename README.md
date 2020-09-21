@@ -5,7 +5,8 @@
 3. Qui est en ligne, permettant de voir les statistiques du forum, son nombre de membre.
 4. Liste des membres, permettant de lister les membres du forum et en faire une brève description (connexion, activité en nombre de messages postés, icône utilisée).
 5. Profil de membres, permettant de lister l'activité, le nombre de messages, les informations souhaitées par le créateur du forum, mais aussi permet d'accéder à des champs de contact (envoyer un mail, envoyer un message privé, ajout de facebook, twitter, skype et autres liens externes choisis par le créateur du-dit forum).
-6. Quelque bribes de css pour personnaliser le forum (scrollbar)
+6. Quelque bribes de css pour personnaliser le forum (scrollbar).
+7. Quelque bribes de JS pour personnaliser le forum et ses templates.
 
 Il est à noter que dans les templates html, les notes font offices aussi de variables selon les règles de l'hébergeur ForumActif et ne peuvent être retirées, même si vides. 
 Il est à noter que ces codes sont faits pour PHPBB2.
