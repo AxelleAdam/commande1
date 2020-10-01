@@ -29,5 +29,4 @@ Ainsi donc, je nomme :
 
 
 PS : 
-
 Bien que je n'aime pas l'utilisation de table dans un code, forumactif sous phpbb2 ne nous permet pas de faire autrement, si nous souhaitons garder un code propre, l'utilisation de table est régulière et selon les templates, impérative pour fonctionner.
