@@ -1,0 +1,17 @@
+Qu'est-ce que des fiches sur un forum ?
+
+Les fiches sont utilisés par les utilisateurs du forum, indépendamment de leur statut (membre, administrateur, modérateur). 
+
+Les fiches sont utilisées pour embellir un texte, une mise en page propre liée au forum qui, idéalement, changerait régulièrement et serait modifiable depuis le css, ainsi lorsqu'un administrateur change l'interface de son forum, les fiches s'adaptent automatiquement.
+
+Dans le cadre de ce forum, qui est un forum rpg, j'ai crée des fiches qui peuvent correspondre au forum entier mais aussi à la création de fiches utilisateurs, de fiches personnages.
+
+En général, je laisse les codes html à disposition de l'administrateur, je lui crée ses balises selon sa maquette et il se débrouille pour le rendu. Dans ce cas, il y a des onglets, j'ai donc aidé à afficher les possibilités de création.
+
+Il n'y a pas besoin de balise p dans les codes de forumactif, car dans les espaces utilisateurs, le code est en BBCode et se met automatiquement en balise p.
+
+Mon JavaScript permet de créer différent onglets qui se basent sur un seul et même cadre, mais les onglets peuvent être affichés soit en haut, soit en bas, au choix de l'administrateur. On évite ainsi d'avoir plusieurs cadres et étouffer le membre en informations, tout est regroupé au même endroit.
+
+La fichePersonnage est crée pour l'utilisateur s'inscrire sur le forum et présenter son personnage.
+
+Il existe deux fiches administratives, une fiche simple et une fiche à onglets, à la préférence de l'administrateur.

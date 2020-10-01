@@ -1,0 +1,407 @@
+#fiche-presentation{width:80%;
+    height: auto;
+    margin: auto;
+  }
+  #fiche-presentation span{
+      background: rgb(202, 198, 198);
+      border: 3px solid rgb(206, 200, 200);
+    padding: 0 5px;
+  }
+  
+  #fiche-reglement{width:80%;
+    height: 450px;
+    margin: auto;
+  }
+  #fiche-reglement span{
+      /*background: rgb(202, 198, 198);
+      border: 3px solid rgb(206, 200, 200);*/
+    padding: 0 5px;
+  }
+  .zone-info{
+      background: rgb(202, 198, 198);
+      border: 3px solid rgb(206, 200, 200);
+    padding: 2%;
+    font-size: 13px;
+    width: 364px;
+    height: 200px;
+    font-family: Open sans;
+    line-height: 14px;
+    text-align: justify;
+    overflow: auto;
+    margin: auto;
+  }  
+  .zone-reglement{height:400px;
+    width:95%;    
+    background: rgb(202, 198, 198);
+    border: 3px solid rgb(206, 200, 200);
+    padding: 2%;
+    font-size: 13px;
+    font-family: Open sans;
+    line-height: 14px;
+    text-align: justify;
+    overflow: auto;
+    margin: auto;}
+  #caractere, #city, #anecdote, #capacites, #whoiam, #presarapide, #valide, #jeu, #guide{padding:2%;}
+  
+  .zone-visible {opacity: 1;transition: linear opacity 300ms;visibility: visible;}
+  .zone-invisible {opacity: 0;transition: linear opacity 300ms;visibility: hidden;}.zone-info, .zone-reglement {position:relative;}
+  .bloc-info, .bloc-reglement {position:absolute; top:0;    padding: 6px;  padding-top: 11px;} 
+  
+  .zone-reglement .codebox{max-width:350px;} .zone-reglement .code{max-width:100%;}
+  
+  .liensbas, liensreglement{display: flex; justify-content:space-evenly; margin:0;}
+  .lienshaut{display: flex; justify-content:space-evenly;}
+  
+  
+  .liensbas div{
+      background: #bab8b8;
+      box-shadow: #a2a0a0 inset 0 -4px 0;
+      color: #942927!important;
+      font-family: kufam;
+      font-size: 13px;
+      letter-spacing: 1px;
+      padding: 5px 0;
+      text-shadow: #e8e7e0 1px 1px 0;
+      text-transform: uppercase;
+      transform: rotate(-3deg);
+      transition-duration: 1s;
+      transition-property: font-size;
+      width: 46%;
+  }
+  .liensreglement div {
+      background: #bab8b8;
+      box-shadow: #a2a0a0 inset 0 -4px 0;
+      color: #942927!important;
+      font-family: kufam;
+      font-size: 10px;
+      letter-spacing: 1px;
+      padding: 5px 0;
+      text-shadow: #e8e7e0 1px 1px 0;
+      text-transform: uppercase;
+      transform: rotate(-3deg);
+      transition-duration: 1s;
+      transition-property: font-size;
+      width: 31%;
+      display: inline-block;
+  }
+  
+  #whoiwas{padding:2%;}
+  .lienshaut div{
+      padding: 7px 0px;
+      width: 30%;
+      transition-property: font-size;
+      transition-duration: 1s;
+      text-shadow: #e8e7e0 1px 1px 0;
+      color: #942927!important;
+      font-family: kufam;
+      font-size: 13px;
+  }
+  .liensbas div:hover, .liensreglement div:hover{cursor: pointer;
+  letter-spacing:1px;
+  }
+  
+  .lienshaut div:hover{cursor: pointer;  letter-spacing:1px;
+  }
+  
+  .cadre{
+      width: 95%;
+      margin: auto;
+      top: 4%;
+      position: relative;
+      height:225px;
+  }
+  .cadre1, .cadre2, .cadre3{
+      width: 28.5%;
+      /* margin: auto; */
+      height: 200px;
+      overflow: auto;
+      position: absolute;
+      top: 5.5%;
+      background: rgb(202, 198, 198);
+      border: 3px solid rgb(206, 200, 200);
+      text-align:justify;
+      font-size:11px;
+      padding:5px;
+  }
+  .cadre1, .titlefiche1{
+    left: 2%;}
+  
+  .cadre2, .titlefiche2{
+  left: 34.5%;
+  }
+  .cadre3, .titlefiche3{
+  right:2%;
+  }
+  .titlefiche1, .titlefiche2, .titlefiche3{
+      font-size: 15px;
+      letter-spacing: 1px;
+      font-family: 'Just Another Hand', sans-serif;
+      text-transform: uppercase;
+      color: #9ca5c8;
+      text-align: center;
+      position: absolute;
+      top: 1%;
+      width: 30%;
+      z-index: 1;
+  }
+  
+  .fondFiche{
+  background: rgb(191, 189, 189);
+      border: 5px solid rgb(162, 160, 160);
+      box-shadow: rgb(162, 160, 160) 0px 0px 25px inset;
+      margin: auto;
+      text-align: center;
+      width: 500px;
+  }
+  
+  .imgFicheAdmin{
+    width:390px;
+    padding:5px;
+  }
+  
+  .iconeFicheAdmin{
+    width:85px;
+    height:85px;
+    margin:auto;
+  border: 5px solid #a2a0a0;
+  }
+  
+  .imgFichePres{
+    width:200px;
+    height:100px;
+  }
+  
+  .imgPresMembre{
+    width:65px;
+    height:65px;
+    float:left;
+    padding:2px;
+    padding-right: 5px;
+  }
+  .titreSstitre{
+    height:50px;
+    width:450px;
+    margin:auto;
+    padding:5px;
+  }
+  
+  .soustitre{
+    text-transform:uppercase;
+    font-family:'crimson pro', sans-serif;
+    font-size:9px;
+    width:450px;
+  }
+  
+   .titre1{
+      color: #942927;
+      text-shadow: #f3f3f3c7 2px 0px 0;
+      font-family: Kufam;
+      font-size: 18px;
+      height: 5px;
+      letter-spacing: 5px;
+      margin-top: -12px;
+      text-align: center;
+      text-transform: uppercase;
+      width: 500px;
+  }
+   t1{
+      color: rgb(148, 41, 39);
+      font-family: Kufam;
+      font-size: 24px;
+      height: 5px;
+      text-align: center;
+      text-shadow: rgba(243, 243, 243, 0.78) 2px 0px 0px;
+      text-transform: uppercase;
+      /* position: relative; */
+      left: 9%;
+      letter-spacing: 13px;
+  }
+   t2{
+  color: rgb(64, 92, 103);
+        text-shadow: rgba(243, 243, 243, 0.53) 2px 0px 0px;
+      font-family: Indie Flower;
+      font-size: 35px;
+      left: -5%;
+      letter-spacing: 5px;
+      position: relative;
+  
+      text-transform: uppercase;
+      top: 61%;
+  }
+  .titreMembre{
+      color: rgb(64, 92, 103);    text-shadow: rgba(243, 243, 243, 0.53) 2px 0px 0px;
+      font-family: "Indie Flower";
+    font-size:13px;
+    text-transform:uppercase;
+  }
+  
+  .titreFiche1{
+  color: #405c67;
+      font-family: kufam;
+      font-size: 16px;
+      margin: auto;
+      text-align: center;
+      text-shadow: #fdfdfd 1px 1px 0;
+      text-transform: uppercase;
+      width: 350px;
+      box-shadow: 0 -5px 0 0 #a2a0a0 inset;
+  }
+  
+  .titreFiche2{
+      font-family:Abril Fatface;
+    font-size:15px;
+    text-transform:uppercase;
+    color:#4aa26d;
+      text-shadow: #fdfdfd 1px 1px 0px;
+    text-align:left;
+    width:350px;
+    margin:auto;
+  }
+  
+  .titreBottin{
+    font-family:poppins;
+    font-size:13px;
+    text-transform:uppercase;
+  color: #6f6f6f;
+      text-shadow: #87b9cc 2px 1px 0;
+    text-align:right;
+    width:400px;
+    margin:auto;
+  }
+  
+  v1{
+  color: rgb(148, 41, 80);
+      font-family: kufam;
+      font-size: 11px;
+      text-transform: uppercase;
+  }
+  
+  v2{
+  color: rgb(64, 92, 103);
+      font-family: Indie Flower;
+      font-size: 15px;
+      text-transform: uppercase;
+  }
+  
+  .citation{
+    width:500px;
+    text-transform:uppercase;
+    font-size:10px;
+  }
+  
+  .messageFiche{
+      background: rgb(202, 198, 198);
+      border: 3px solid rgb(206, 200, 200);
+      font-family: "open sans";
+      font-size: 12px;
+      margin: auto;
+      padding: 10px;
+      text-align: justify;
+      width: 375px;
+  }
+  
+  .messageFiche2{
+      font-family: "open sans";
+      font-size: 12px;
+      margin: auto;
+      padding: 10px;
+      text-align: justify;
+      width: 375px;
+  }
+  .messageHistory{
+    width:440px;
+    margin:auto;
+   background: rgb(202, 198, 198);
+    border: 3px solid rgb(206, 200, 200);
+    padding:10px;
+    font-family:open sans;
+    font-size:12px;
+    text-align:justify;
+    height:150px;
+    overflow:auto;
+  
+  }
+  .messageBottin{
+    width:375px;
+    margin:auto;
+    background: rgb(202 198 198);
+    border: 3px solid rgb(206 200 200);
+    padding:10px;
+    font-family:open sans;
+    font-size:12px;
+    text-align:justify;
+  }
+  
+  .presPerso{
+      font-size: 11px;
+      margin: auto;
+      text-align: justify;
+      width: 430px;
+      margin: auto auto auto 3.5em;
+  }
+  
+  .ava1{
+      float: left;
+      height: 180px;
+      margin-left: 18px;
+      margin-right: 4px;
+      padding: 2px;
+      width: 125px;
+  }
+  
+  .pres1{
+      background: #cac6c6;
+      border: 3px solid #cec8c8;
+      height: 187px;
+      overflow: auto;
+      padding: 5px;
+      width: 242px;
+      margin-top: 1em;
+  }
+  
+  .ava2{
+      float: right;
+      height: 100px;
+      padding: 2px;
+      width: 65px;
+      padding-right: 15px;
+  }
+  
+  .pres2{
+      background: rgb(202 198 198);
+      border: 3px solid rgb(206 200 200);
+      height: 100px;
+      overflow: auto;
+      padding: 5px;
+      text-align: justify;
+      width: 380px;
+      margin-left: 15px;
+  }
+  
+  .cadrePresMembre{
+      background: #d1cfcf;
+      border: 3px solid #cec8c8;
+      font-size: 10px;
+      height: 70px;
+      margin-left: 13px;
+      overflow: auto;
+      padding: 5px;
+      text-align: justify;
+      width: 91%;
+  }
+  
+  .presMembre{
+    width:450px;
+    text-align:justify;
+    padding:5px;
+  }
+  
+  .copyright::before{
+    font-family:'crimson pro', sans-serif;
+    font-size:10px;
+    text-align:center;
+    content:"copyright du forum";
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:#595959;
+  }
