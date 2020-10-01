@@ -1,0 +1,78 @@
+/*liste des membres*/
+.searchMember{
+    background: rgb(189, 191, 191);
+        font-family: "open sans";
+        font-size: 11px;
+        height: 41px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+        padding: 11px 0 1px 0;
+    }
+    
+    .searchMember input.liteoption{
+      width:5vw;
+    }
+    .listeDesMembres{
+      width:100%;
+      margin:auto;
+    }
+    .boiteMembre{
+      width:24%;
+      position:relative;
+      margin:auto;
+      float:left;
+    }
+    .cadreMembre{
+        background: rgb(191, 189, 189);
+        border: 3px solid rgb(162, 160, 160);
+        box-shadow: rgb(162, 160, 160) 0px 0px 5px inset;
+        font-family: "open sans";
+        font-size: 70%;
+        height: 8.5vw;
+        overflow: auto;
+        padding: 6px;
+        text-align: justify;
+        width: 80%;
+    }
+    .avatarMembre{
+      width:83%;
+      border:5px #bfbdbd solid;
+    }
+    
+    .avatarMembre img{
+        width:100%;
+    }
+    
+    .usernameMembre{
+        font-family: Kufam;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: #e8e7e0 1px 1px 0;
+        box-shadow: #a2a0a0 inset 0 -4px 0;
+        transform: rotate(-2deg);
+        width: 88%;
+        margin-bottom: 4px;
+    }
+    .toknow{
+        font-family:kufam;
+        text-transform:uppercase;
+        text-align:center; 
+        font-size:70%;
+    }
+
+    .joined, .featMembre, .lastVisit, .messagesMembre{
+        font-family: "kufam";
+        font-size: 80%;
+        text-align: center;
+        text-shadow: rgb(232, 231, 224) 1px 1px 0px;
+        text-transform: uppercase;
+        padding-top: 4px;
+    }
+    
+    .mpFicheMembre{margin:auto;
+    }
+    

@@ -1,0 +1,33 @@
+<form action="{S_MODE_ACTION}" method="get" class="searchMember">
+	<!-- BEGIN memberrow -->
+  <div class="listeDesMembres">
+	<div class="boiteMembre">          		
+		<div class="avatarMembre"><a href="{memberrow.U_VIEWPROFILE}">{memberrow.AVATAR_IMG}</a></div>
+
+		<!-- BEGIN switch_td_group -->
+		<div class="groups">{memberrow.GROUPS}</div>
+		<!-- END switch_td_group -->
+          <div class="usernameMembre"><span class="toknow">to know about</span><a class="gen" href="{memberrow.U_VIEWPROFILE}"><br/>{memberrow.USERNAME}</a></div>
+            <div class="cadreMembre">
+                {memberrow.USERNAME} a le visage de <span class="featMembre">{memberrow.INTERESTS}</span> et nous a rejoint le <span class="joined">{memberrow.JOINED}</span>. 
+                On l'a vu passer pour la dernière fois le <span class="lastVisit">{memberrow.LASTVISIT}</span> et {memberrow.USERNAME} a posté <span class="messagesMembre">{memberrow.POSTS} messages</span>. 
+		 Si tu veux contacter cette personne, c'est par <span class="mpFicheMembre">{memberrow.PM_IMG} et pour un lien c'est par là ; {memberrow.WWW_IMG}</span>.
+            </div>
+	</div>
+  </div>
+	<!-- END memberrow -->
+	<!-- BEGIN switch_no_user -->
+	<tr>
+		<td class="catBottom" colspan="{switch_no_user.COLSPAN_NUMBER}" height="28" align="center"><span class="gensmall">{switch_no_user.L_NO_USER}</span></td>
+	</tr>
+	<!-- END switch_no_user -->
+<!--</table>-->
+<!-- BEGIN switch_pagination -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><span class="nav">{PAGE_NUMBER}</span></td>
+		<td align="right"><span class="nav">{PAGINATION}</span></td>
+	</tr>
+</table>
+<br />
+<!-- END switch_pagination -->
