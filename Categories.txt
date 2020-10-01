@@ -1,0 +1,33 @@
+Les catégories permettent de visualiser la liste des sujets, il s'agit du corps du forum où sont regroupés les topics, les sujets.
+
+Les catégories se divisent en plusieurs formes d'importance, de la plus grande à la plus petite : 
+- la catégorie correspond à l'ensemble du groupe choisit par l'administrateur, elle peut regrouper par exemple les postes administratifs (règlement, conditions d'utilisations, etc)
+- le forum, il est à l'intérieur de la catégorie et regroupe ce que nous verrons aussi sur le forum, pour créer un forum, il faut idéalement (mais pas obligatoirement) créer une catégorie dans laquelle mettre ce forum.
+- les sous-forums, ils sont nécessairement dans les forums, sorte de regroupements, plus personnels, pour les personnes qui aiment ranger dans des cases plus spécifiques.
+- les petites annonces, ce code est propre à lui-même et permet de mettre en avant des annonces, cela peut être des annonces de vente ou des annonces du staff, selon le choix de l'administrateur.
+
+Ainsi donc, la catégorie est ce qui sera affiché, il regroupe des forums, qui eux-même regroupent des sous-forums. Les forums peuvent être indépendants des catégories, les sous-forums ne peuvent pas être indépendant des forums. Lorsqu'un utilisateur clique sur le sous-forum, celui-ci devient un forum à son tour.
+
+Elles sont composées de boîtes modifiables et personnalisables, contenant de base :
+- Les sous-forums (au choix de l'utilisateur qui peut aussi les cacher, choix fait par "Forum des Forums", le forum d'entraide de Forumactif)
+- Le nombre de messages et sujets forum.
+- L'avatar de l'utilisateur, le forum affiche celui du dernier à avoir posté dans le lieu indiqué.
+- La date du dernier message ainsi que son utilisateur et le titre du sujet impacté par le dernier message.
+- Une description du forum. Dans les catégories, nous voyons en gros titre la catégorie, puis en forum ce qui est concerné exactement. 
+- Une image que je nomme dans mon code "OldNewLock", car il s'agit d'une image qui indique s'il y a du nouveau sur le forum ou si le forum est verrouillé (un forum verrouillé est un forum où seuls les administrateurs peuvent répondre, le forum est en lecture uniquement)
+
+Ainsi donc, je nomme :
+- blocCate : la catégorie est sous forme de bloc.
+- titreForum : le titre du forum dans la catégorie (ou des forums, il peut y en avoir plusieurs)
+- descriptionForum : correspond à un cadre de description du-dit forum afin d'indiquer aux utilisateurs ce que contient le forum.
+- sousForums : bloc des sous-forums, personnalisation des sous-forums, on peut différencier la boîte des liens.
+- sujetsMessages : traitement des sujets et des messages, de la boîte mais de leur mise en page aussi.
+- blocDernierPost : forumactif propose un seul bloc qui englobe le dernier message, le lien vers le sujet concerné, le nom de l'utilisateur ayant posté ce message avec un lien menant au profil de l'utilisateur.
+- dernierPost : permet de gérer le cadre et surtout, personnaliser le cadre de dernier poste et le rendre plus indépendant par rapport au bloc.
+- imgOldNewLock : permet de gérer l'image indiquant si le forum contient des nouvelles ou non ou si celui-ci est verrouillé. Il me permet de personnaliser le code, le visuel, mais pas les images qui sont gérées ailleurs dans le panneau administrateur.
+- avatarCate : permet de gérer la visuel et l'emplacement de l'avatar du dernier utilisateur ayant posté.
+
+
+PS : 
+
+Bien que je n'aime pas l'utilisation de table dans un code, forumactif sous phpbb2 ne nous permet pas de faire autrement, si nous souhaitons garder un code propre, l'utilisation de table est régulière et selon les templates, impérative pour fonctionner.

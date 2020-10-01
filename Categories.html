@@ -1,0 +1,53 @@
+<table width="100%" border="0" cellspacing="1" cellpadding="0" align="center">
+	<tr>
+		<td valign="bottom">
+
+			<div class="nav"><a class="nav" href="{U_INDEX}">{L_INDEX}</a>{NAV_CAT_DESC}</div>
+		</td>
+		<td class="gensmall" align="right" valign="bottom">
+			<!-- BEGIN switch_user_logged_in -->
+			<a class="gensmall" href="{U_SEARCH_NEW}">{L_SEARCH_NEW}</a><br />
+			<a class="gensmall" href="{U_SEARCH_SELF}">{L_SEARCH_SELF}</a><br />
+			<!-- END switch_user_logged_in -->
+			<a class="gensmall" href="{U_SEARCH_UNANSWERED}">{L_SEARCH_UNANSWERED}</a>
+		</td>
+	</tr>
+</table>
+
+ <!-- BEGIN catrow --><!-- BEGIN tablehead -->
+ <div class="titreCate">{catrow.tablehead.L_FORUM}</div>
+<div class="blocForum">    
+  <!-- END tablehead -->
+
+     <!-- BEGIN cathead -->
+     <!-- END cathead -->
+        
+     <!-- BEGIN forumrow -->
+  <div class="blocCate">
+	<div class="titreForum"><a class="forumlink" href="{catrow.forumrow.U_VIEWFORUM}">{catrow.forumrow.FORUM_NAME}</a></div>
+        <div class="descriptionForum">{catrow.forumrow.FORUM_DESC}</div>
+        <div class="sousForums">{catrow.forumrow.L_LINKS}{catrow.forumrow.LINKS}</div>
+        <div class="sujetsMessages">{catrow.forumrow.TOPICS} sujets & {catrow.forumrow.POSTS} messages</div>
+          <div class="blocDernierPost"><div class="dernierPost">
+          <div class="imgOldNewLock">
+            <img title="{catrow.forumrow.L_FORUM_FOLDER_ALT}" src="{catrow.forumrow.FORUM_FOLDER_IMG}" alt="{catrow.forumrow.L_FORUM_FOLDER_ALT}" />
+	   </div>
+         {catrow.forumrow.LAST_POST}
+            </div>     </div>
+     <!-- BEGIN ads -->
+
+            <!-- END ads -->
+                <!-- BEGIN avatar -->
+        <div class="avatarCate">{catrow.forumrow.avatar.LAST_POST_AVATAR}</div>
+                <!-- END avatar -->
+	
+         <br clear="all" />
+  </div>
+     <!-- END forumrow -->
+     <!-- BEGIN catfoot -->
+    
+     <!-- END catfoot -->
+     <!-- BEGIN tablefoot -->
+
+       </div>
+     <!-- END tablefoot --><!-- END catrow -->
